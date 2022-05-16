@@ -35,6 +35,9 @@
 }
 
 /* ===== HEADER SECTION ===== */
+.header.sticky-header {
+  @apply bg-white shadow-[2px_0_12px_rgba(0,0,0,0.1)];
+}
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
