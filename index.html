@@ -27,6 +27,60 @@
     />
   </head>
   <body class="font-body font-reguler">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-white z-50 transition-all duration-400"
+      id="header"
+    >
+      <div
+        class="header__container container h-24 flex justify-between items-center"
+      >
+        <a
+          href="#"
+          class="header__logo inline-flex items-center gap-2 text-[18px] text-black font-bold"
+        >
+          <img
+            src="./src/img/favicon.png"
+            alt=""
+            class="header__logo-icon w-[35px]"
+          />
+          Webdev.
+        </a>
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6">
+            <li class="header__item">
+              <a href="#" class="header__link active-link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Portfolios</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Testimonials</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Contact</a>
+            </li>
+          </ul>
+
+          <a href="#" class="header__button button button-flex mt-6"
+            >Register</a
+          >
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== SWIPER JS ===== -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
