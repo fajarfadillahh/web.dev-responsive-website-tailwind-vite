@@ -49,3 +49,20 @@
 .header__link.active-link {
   @apply text-green font-medium;
 }
+
+/* ===== SERVICE SECTION ===== */
+.service__content {
+  @apply w-[300px] p-8 bg-white rounded-[1.5rem] border-2 border-solid border-[rgba(0,0,0,0.1)] transition-all duration-400 hover:border-white hover:shadow-[0_2px_12px_rgba(0,0,0,0.1)];
+}
+.service__content-header {
+  @apply inline-flex items-center gap-4;
+}
+.service__content-img {
+  @apply w-[40px];
+}
+.service__content-title {
+  @apply text-[18px] text-black font-semibold;
+}
+.service__content-text {
+  @apply text-brown py-6 leading-text;
+}
