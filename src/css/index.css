@@ -86,3 +86,43 @@
 .portfolio__content-title {
   @apply text-[20px] text-black font-semibold;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 p-8 bg-white rounded-[1.5rem] border-2 border-solid border-[rgba(0,0,0,0.1)] transition-all duration-400;
+}
+.testimonial__content-title,
+.testimonial__content-name {
+  @apply text-[18px] text-black font-medium;
+}
+.testimonial__content-comment {
+  @apply text-brown leading-text my-4;
+}
+.testimonial__content-rating {
+  @apply inline-flex items-center gap-2;
+}
+.testimonial__content-star {
+  @apply inline-flex text-[1.2rem] text-[#fbb040];
+}
+.testimonial__content-profile {
+  @apply inline-flex items-center gap-4;
+}
+.testimonial__content-img {
+  @apply w-[60px];
+}
+.testimonial__content-profession {
+  @apply text-[14px] text-brown mt-1;
+}
+/* swiper pagination */
+.testimonial__content.swiper-slide-active {
+  @apply shadow-[-8px_8px_0_rgba(0,0,0,0.1)];
+}
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-[10px] h-[10px] bg-[rgba(0,0,0,0.1)] opacity-100 transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-[2rem] h-[10px] rounded-[1rem] bg-green;
+}
