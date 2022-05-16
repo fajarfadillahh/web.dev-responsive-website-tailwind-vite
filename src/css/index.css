@@ -64,8 +64,25 @@
   @apply w-[40px];
 }
 .service__content-title {
-  @apply text-[18px] text-black font-semibold;
+  @apply text-[20px] text-black font-semibold;
 }
 .service__content-text {
   @apply text-brown py-6 leading-text;
+}
+
+/* ===== PORTFOLIO SECTION ===== */
+.portfolio__content {
+  @apply w-[300px] grid gap-4;
+}
+.portfolio__content-box {
+  @apply overflow-hidden rounded-[1rem];
+}
+.portfolio__content-img {
+  @apply w-full h-full transition-all duration-400 group-hover:scale-110;
+}
+.portfolio__content-data {
+  @apply flex justify-between items-center;
+}
+.portfolio__content-title {
+  @apply text-[20px] text-black font-semibold;
 }
