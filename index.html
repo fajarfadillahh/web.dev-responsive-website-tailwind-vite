@@ -29,7 +29,7 @@
   <body class="font-body font-reguler">
     <!-- ===== HEADER SECTION ===== -->
     <header
-      class="header fixed w-full top-0 left-0 bg-white z-50 transition-all duration-400"
+      class="header fixed w-full top-0 left-0 bg-transparent z-50 transition-all duration-400"
       id="header"
     >
       <div
@@ -80,6 +80,38 @@
       </div>
     </header>
     <!-- ===== HEADER SECTION ===== -->
+
+    <main class="main overflow-hidden">
+      <!-- ===== HOME SECTION ===== -->
+      <section class="home section relative bg-[#f2f2f2]" id="home">
+        <div class="home__container container">
+          <div class="home__data text-center">
+            <h1 class="home__title text-[42px] text-black font-bold mb-4">
+              We Develop <br /><span class="home__title-green text-green">
+                Shopify</span
+              >
+              Sites
+            </h1>
+            <p class="home__text section-text">
+              Slingback fabric heels. Thin wraparound ankle strap. Squared heel
+              and toe. Pointed toes. Padded insole with geometrical design.
+            </p>
+            <div class="home__buttons inline-flex items-center gap-3">
+              <a href="#" class="home__buttons-contact button button-flex"
+                >Contact Us</a
+              >
+              <a href="#" class="home__buttons-watch button-flex button-link"
+                >Watch Video</a
+              >
+            </div>
+          </div>
+
+          <img src="./src/img/home-bg-1.png" alt="" class="home__img1 hidden" />
+          <img src="./src/img/home-bg-2.png" alt="" class="home__img2 hidden" />
+        </div>
+      </section>
+      <!-- ===== HOME SECTION ===== -->
+    </main>
 
     <!-- ===== SWIPER JS ===== -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
