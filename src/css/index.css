@@ -146,3 +146,26 @@
 .pricing__content-icon {
   @apply inline-flex text-[.7rem] text-white p-1 bg-brown rounded-full;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__data-logo {
+  @apply mb-3;
+}
+.footer__data-text {
+  @apply text-black leading-text;
+}
+.footer__data-social {
+  @apply inline-flex items-center gap-6 mt-6;
+}
+.footer__data-link {
+  @apply inline-flex text-[1.5rem] text-black p-1 bg-[rgba(0,0,0,0.1)] rounded-[.5rem] transition-all duration-400 hover:bg-green hover:text-white;
+}
+.footer__content-title {
+  @apply text-[20px] text-black font-semibold mb-4;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content-link {
+  @apply text-black hover:underline;
+}
