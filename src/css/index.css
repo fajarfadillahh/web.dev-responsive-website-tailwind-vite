@@ -174,3 +174,8 @@
 .scrollup.scroll-action {
   @apply opacity-100 hover:bg-opacity-100;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-green bg-opacity-50 text-white;
+}
