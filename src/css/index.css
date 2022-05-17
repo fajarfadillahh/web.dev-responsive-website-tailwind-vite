@@ -169,3 +169,8 @@
 .footer__content-link {
   @apply text-black hover:underline;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply opacity-100 hover:bg-opacity-100;
+}
