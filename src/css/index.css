@@ -126,3 +126,23 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] rounded-[1rem] bg-green;
 }
+
+/* ===== PRICING SECTION ===== */
+.pricing__content {
+  @apply w-[300px] grid gap-8 grid-rows-[max-content] p-8 bg-white rounded-[1.5rem] border-2 border-solid border-[rgba(0,0,0,0.1)] transition-all duration-400 hover:border-white hover:shadow-[0_2px_12px_rgba(0,0,0,0.1)];
+}
+.pricing__content-class {
+  @apply text-[18px] text-black font-medium mb-1;
+}
+.pricing__content-price {
+  @apply text-[42px] text-black font-bold;
+}
+.pricing__content-list {
+  @apply flex flex-col gap-3;
+}
+.pricing__content-item {
+  @apply inline-flex items-center gap-2 text-[14px] text-brown;
+}
+.pricing__content-icon {
+  @apply inline-flex text-[.7rem] text-white p-1 bg-brown rounded-full;
+}
