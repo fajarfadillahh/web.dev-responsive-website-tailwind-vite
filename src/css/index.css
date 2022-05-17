@@ -179,3 +179,14 @@
 ::selection {
   @apply bg-green bg-opacity-50 text-white;
 }
+
+/* ===== SCROLL BAR ===== */
+::-webkit-scrollbar {
+  @apply w-[.6rem] bg-[rgba(0,0,0,0.1)];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[rgba(0,0,0,0.3)];
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[rgba(0,0,0,0.5)];
+}
