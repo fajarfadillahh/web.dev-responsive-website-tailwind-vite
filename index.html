@@ -33,7 +33,7 @@
       id="header"
     >
       <div
-        class="header__container container h-24 flex justify-between items-center"
+        class="header__container container h-24 flex justify-between items-center lg:relative"
       >
         <a
           href="#"
@@ -51,7 +51,9 @@
           class="header__menu md:flex md:items-center md:gap-6"
           id="header-menu"
         >
-          <ul class="header__list flex flex-col gap-6 md:flex-row">
+          <ul
+            class="header__list flex flex-col gap-6 md:flex-row lg:absolute lg:left-[50%] lg:translate-x-[-50%]"
+          >
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
             </li>
