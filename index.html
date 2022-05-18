@@ -47,8 +47,11 @@
           Webdev.
         </a>
 
-        <div class="header__menu" id="header-menu">
-          <ul class="header__list flex flex-col gap-6">
+        <div
+          class="header__menu md:flex md:items-center md:gap-6"
+          id="header-menu"
+        >
+          <ul class="header__list flex flex-col gap-6 md:flex-row">
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
             </li>
@@ -66,13 +69,13 @@
             </li>
           </ul>
 
-          <a href="#" class="header__button button button-flex mt-6"
+          <a href="#" class="header__button button button-flex mt-6 md:mt-0"
             >Register</a
           >
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer"
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer md:hidden"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -83,11 +86,13 @@
 
     <main class="main overflow-hidden">
       <!-- ===== HOME SECTION ===== -->
-      <section class="home section relative bg-[#f2f2f2]" id="home">
-        <div class="home__container container">
+      <section class="home section relative bg-[#f2f2f2] md:py-0" id="home">
+        <div
+          class="home__container container md:grid md:h-screen md:content-center"
+        >
           <div class="home__data text-center">
             <h1
-              class="home__title text-[42px] text-black font-bold mb-4 xs:text-[48px] sm:text-[56px]"
+              class="home__title text-[42px] text-black font-bold mb-4 xs:text-[48px] sm:text-[56px] md:text-[68px]"
             >
               We Develop <br /><span class="home__title-green text-green">
                 Shopify</span
@@ -169,7 +174,7 @@
           </div>
 
           <div
-            class="service__group grid grid-cols-[max-content] justify-center gap-8"
+            class="service__group grid grid-cols-[max-content] justify-center gap-8 md:grid-cols-[repeat(2,_max-content)]"
           >
             <div class="service__content">
               <div class="service__content-header">
@@ -280,7 +285,7 @@
           </div>
 
           <div
-            class="portfolio__group grid grid-cols-[max-content] justify-center gap-8"
+            class="portfolio__group grid grid-cols-[max-content] justify-center gap-8 md:grid-cols-[repeat(2,_max-content)]"
           >
             <div class="portfolio__content group">
               <div class="portfolio__content-box">
